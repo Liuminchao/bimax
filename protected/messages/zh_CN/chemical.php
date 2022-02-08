@@ -1,0 +1,62 @@
+<?php
+
+/**
+ * 人员管理
+ * @author liuminchao
+ */
+return array(
+    //----------标题---------------
+    'contentHeader' => '化学物品管理',
+    'bigMenu' => '化学物品管理',
+    'smallHeader List' => '化学物品列表',
+    'smallHeader New' => '化学物品添加',
+    'smallHeader Edit' => '化学物品编辑',
+    'Statistics contentHeader' => '化学物品统计',
+    //---------表单----------------
+    'chemical_edit' =>'编辑',
+    'chemical_delete' => '删除',
+    'chemical_type' => '化学物品类型',
+    'chemical_name' => '化学物品名称',
+    'chemical_content' => '化学物品内容',
+    'chemical_id' => '化学物品编码',
+    'chemical_img'=> '化学物品图片',
+    'permit_img'=> '许可证图片',
+    'permit_info'=> '许可证信息',
+    'permit_startdate'=>'许可证起始日期',
+    'permit_enddate'=> '许可证截止日期',
+    'status' => '状态',
+    'Action' => '操作',
+    'chemical_num' => '化学物品数量',
+    'record_time' => '入库时间',
+    'Add Chemical' => '添加化学物品',
+    'Logout Chemical' =>'删除化学物品',
+    'Edit Chemical' =>'修改化学物品',
+    'STATUS_NORMAL'=> '已启用',
+    'STATUS_DISABLE'=> '未启用',
+    'select'=>'选择',
+    'submit'=>'提交',
+    'related_chemical'=>'关联入场化学物品',
+    'Assign Chemical' => '按化学物品类型指定项目化学物品',
+    'select_cnt'    => '已选化学物品数',
+    'Chemical_certificate' => '化学物品证书',
+    'Chemical_batch_export' => '批量导出化学物品表',
+    'compound' => '有害物质/化合物',
+    'usage' => '用法',
+    'properties' => '危险特性',
+    'storage_require' => '保管条件',
+    'personal_protection' => '个人防护',
+    'first_aid_measures' => '健康危害和急救措施',
+    'other_measures' => '环境/其他措施',
+    'person_in_charge' => '负责人',
+    //-----------验证信息----------------
+    'Error Chemical_id is null'=> '化学物品编码为空',
+    'Error Chemical_name is null'=> '化学物品编码为空',
+    'Error Upload_file is null' => '请先上传文件',
+    'Error Chemical_id is exist' => '该化学物品编号已存在。',
+    'Error Upload_pic is null' => '请先上传图片',
+    'Error Chemical_type is null' => '化学物品类型不能为空',
+    'Error Chemical_content is null' => '证书描述不能为空',
+    'Error Chemical is in program' =>  '该化学物品还有未完结的项目:',
+    'Error Chemical do not' => '不能操作',
+    'Error Chemical is exist' => '化学物品编码已经存在于 ',
+);

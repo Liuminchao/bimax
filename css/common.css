@@ -1,0 +1,83 @@
+﻿@CHARSET "UTF-8";
+
+.padding-lr5{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.tool-a-search{
+	cursor:pointer;
+	color:gray;
+	padding-top:5px;
+	padding-bottom:5px;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.grid-tr-hover,.towfocus{
+	background-color:#fbf9e6;color:#f00;
+}
+
+.progress-bar-span {
+    border: 0 none;
+    height: 20px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: auto;
+	color:#f39c12;
+}
+
+
+
+
+/** 详情表格
+ * -----------------------------------------------------------------------*/
+.detailtab {cellspacing:0; cellpadding:0; border:0;width:100%;color:#666;}
+.detailtab tr td,.detailtab tbody tr td {border:0;padding:5px; _padding:5px;}
+.detailtab tr td.tname {text-align:right; width:100px;}
+.detailtab tr td.tvalue {text-align:left;width:600px;}
+
+.detailtab tr td.tname-2 {text-align:right; width:16%;}
+.detailtab tr td.tvalue-10 {text-align:left;width:84%;}
+
+.detailtab tr td.tvalue-4 {text-align:left;width:34%;}
+
+.detailtab tr td.tname-1 {text-align:right; width:8%;}
+.detailtab tr td.tvalue-3 {text-align:left;width:25%;}
+
+.detailtab .form-name td { border-bottom:1px #ccc dotted; font-size:14px; font-weight:bold; color:#0088cc; padding:10px 0;text-align:left;}
+
+.ajax-loading-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ajax-loading-img {
+    z-index: 1020;
+    background: transparent url('../img/ajax-loader1.gif') 50% 50% no-repeat;
+}
+
+.form-header{font-size:20px;font-weight:400; margin:0;padding: 10px 10px 20px 0px;}
+
+/* Control sidebar scroll */
+.control-sidebar-scroll {overflow-y: auto;}
+
+/* a标签 操作图标颜色 */
+.a_logo {color:#3ABDC7;}
+.b_logo {color:#8c9192;}
+
+/* popDiv /* popDiv > 弹出区域
+--------------------------------------------------------------------*/
+.popDiv { width:230px; z-index:9999; cursor:default; position:absolute;}
+
+.popDiv_top { background:url(../images/popDiv-border.png); width:240px; height:100%; padding:10px 0 0 0;}
+
+.popDiv_body { background:#fff; border:1px #A8A8A8 solid; width:220px; height:100%; overflow:hidden; margin-left:9px; padding:0; *margin:0; text-align:left; color:#666;}
+
+.popDiv_air { background:url(../images/popDiv-air.gif) no-repeat; position:absolute; bottom:0; left:5px; height:42px; width:382px; z-index:9999; padding:0 8px;}
+
+.popDiv_bottom { background:url(../images/popDiv-bottom.png); width:240px; height:10px;}

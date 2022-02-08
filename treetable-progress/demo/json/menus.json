@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 19,
+  "data": [
+    {
+      "fileid": 9564,
+      "fileName": "系统管理",
+      "parentId": -1,
+      "path": "\/THE FLORENCE RESIDENCES"
+    },
+    {
+      "fileid": 1034,
+      "filleName": "用户管理",
+      "parentId": 9564,
+      "path": "\/THE FLORENCE RESIDENCES\/Approved Drawings"
+    },
+    {
+      "fileid": 3,
+      "fileName": "查询用户",
+      "parentId": 1034,
+      "path": "\/THE FLORENCE RESIDENCES\/Approved Drawings\/PBU TYPE"
+    }
+  ]
+}

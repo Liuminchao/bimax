@@ -1,0 +1,50 @@
+<?php
+
+/**
+ * 公用
+ * @author LiuMinchao
+ */
+return array(
+    'sn' => '序号',
+    'title'=> '标题',
+    'company'=>'公司(责任人)',
+    'dboard' => '安全检查记录',
+    'smallHeader List' => '安全单列表',
+    'contentHeader' => '安全检查',
+    'bigMenu' => '安全单',
+    'Pending_Review' => '等待审核',
+    'STATUS_ONGOING' => '进行中',
+    'STATUS_CLOSE' => '已关闭',
+    'STATUS_TIMEOUT_CLOSE' => '自动关闭(超过7天)',
+    'check_id' => '检查单编号',
+    'root_proname' => '总包项目名称',
+    'status' => '状态',
+    'apply_time' => '申请时间',
+    'stipulation_time' => '规定时间',
+    'violation_record' => '违规记录',
+    'violation_photo' => '违规拍照',
+    'safety_level' => '安全等级',
+    'safety_type' => '安全类型',
+    'safety_finding' => 'Type of Finding',
+    'export' => '导出',
+    'Export Pdf' => '导出安全报告',
+    'merge_report' => '合并报告',
+    'Initiator'=> '发起人',
+    'Person In Charge'=> '负责人',
+    'Person Responsible'=> '责任人',
+    'date_of_initiation' => '发起时间',
+    'ranking' => '排名',
+    'user_name' => '姓名',
+    'violation_cnt' => '违规次数',
+    'date' => '日期',
+    'in' => '在',
+    'rank_alert' => '违规次数上升幅度最大',
+    'company_category_alert' => '拥有最多的违规次数。',
+    'good_practices_alert' => '的违规次数最多。',
+    'project_category_alert' => '的违规次数最多。相关的培训必须给员工，使员工更进一步了解安全措施并遵守已实施的指导方针。',
+    'date_alert' => '后者日期要大于前者',
+    'error_tag_is_null' => '请选择记录',
+    'confirm_batch_export' => '按页数合并PDF',
+    'wsh_report' => '安全检查报告',
+);
+

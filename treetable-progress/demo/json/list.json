@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "msg": "",
+  "count": 4,
+  "data": [
+    {
+    "authorityId": "1",
+    "path_id": "9874",
+    "authorityName": "THE FLORENCE RESIDENCES",
+    "path": "\/THE FLORENCE RESIDENCES",
+    "parentId": -1,
+    "orderNumber": 1,
+    "menuUrl": "system/user",
+    "menuIcon": null,
+    "authority": null,
+    "checked": 0,
+    "isMenu": 0,
+    "open": true,
+    "createTime": "2018/07/21 13:54:16",
+    "updateTime": "2018/07/21 13:54:16"
+  }, {
+    "authorityId": "2",
+    "path_id": "9912",
+    "authorityName": "Approved Drawings",
+    "path": "\/THE FLORENCE RESIDENCES\/Approved Drawings",
+    "parentId": "1",
+    "orderNumber": 2,
+    "menuUrl": "system/user",
+    "menuIcon": null,
+    "authority": null,
+    "checked": 0,
+    "isMenu": 0,
+    "open": true,
+    "createTime": "2018/07/21 13:54:16",
+    "updateTime": "2018/07/21 13:54:16"
+  }, {
+    "authorityId": "3",
+    "path_id": "10138",
+    "authorityName": "PBU TYPE",
+    "path": "\/THE FLORENCE RESIDENCES\/Approved Drawings\/PBU TYPE",
+    "parentId": "2",
+    "orderNumber": 3,
+    "menuUrl": "system/user",
+    "menuIcon": null,
+    "authority": null,
+    "checked": 0,
+    "isMenu": 0,
+    "open": true,
+    "createTime": "2018/07/21 13:54:16",
+    "updateTime": "2018/07/21 13:54:16"
+  }, {
+    "authorityId": "4",
+    "path_id": "10149",
+    "authorityName": "1CB-09",
+    "path": "\/THE FLORENCE RESIDENCES\/Approved Drawings\/PBU TYPE\/1CB-09",
+    "parentId": "3",
+    "orderNumber": 4,
+    "menuUrl": "system/user",
+    "menuIcon": null,
+    "authority": null,
+    "checked": 0,
+    "isMenu": 0,
+    "open": true,
+    "createTime": "2018/07/21 13:54:16",
+    "updateTime": "2018/07/21 13:54:16"
+  }
+  ]
+}

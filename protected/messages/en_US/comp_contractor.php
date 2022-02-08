@@ -1,0 +1,70 @@
+<?php
+
+/**
+ * 建筑公司管理
+ * @author yaohaiyan
+ */
+return array(
+		
+		
+    //----------标题---------------
+    'contentHeader' => 'Information List',
+    'bigMenu' => 'Contractor Management',
+    'smallHeader List' => 'Contractor List',
+    'smallHeader New' => 'Add Contractor',
+    'smallHeader Edit' => 'Edit Contractor',
+    'Add Contractor' => 'Add Contractor',
+    'Edit Contractor' => 'Edit Contractor',
+    'Delete Contractor' => 'Delete Contractor',
+	'Logout Contractor' => 'Logout Contractor',
+    //---------表单----------------
+    'Base Info' => 'Basic Information',
+    'Login Info' => 'Login Information',
+    'Contractor_id' => 'NO.',
+    'Contractor_name' => 'Company Name',
+    'Contractor_type' => 'Contractor Type',
+    'reset_type' => 'Reset type',
+    'company_sn' => 'Username',
+    'Company_adr' => 'Address',
+    'link_person' => 'Contact Person',
+    'link_phone' => 'Contact Phone Number',
+    'Status' => 'Status',
+    'Record Time' => 'Registration Date & Time',
+    'Action' => 'Actions',
+    'STATUS_NORMAL' => 'Normal',
+    'STATUS_DISABLE' => 'Disable',
+    'TYPE_SYSTEM' => 'System Operator',
+    'TYPE_PLATFORM' => 'Platform Opeartor',
+    'Button Save' => 'Save',
+    'Button Back' => 'Back',
+    'Select Type' => '- Select Type -',
+    'zh_CN' => 'Chinese',
+    'en_US' => 'English',
+    'Language' => 'Language',
+    'user_name' => 'User Name:',
+    'passwd' => 'Password:',
+    'admin' => 'Adminstrator',
+    'operator_name' => 'Adminstrator Name',
+    'operator_phone' => 'Contact Phone Number',
+	'short_name' => 'Short Name Of Company',
+	'remark' => 'Company LoGo',
+	'file_space' => 'Storage Space',
+	'mc_pro_cnt' => 'Main Con Program Number',
+    //-----------验证信息----------------
+    'Error contractor_name is null' => 'Please enter Contractor Name.',
+	'Error short_name is null'  => 'Please enter Short Name.',
+	'Error company_logo is null' => 'Please upload Contractor LoGo',
+    'Error company_sn is null'  =>  'Please enter UEN',
+    'Error Address is null' => 'Please enter Address.',
+    'Error contractor_type is null' => 'Please enter login Account NO.',
+    'Error contractor_id is null' => 'Please select entry to edit',
+    'Error password_ic is null' => 'Please enter passpord',
+    'Error pwd is not eq' => 'Password does not match!',
+    'Error contractor_name is exist' => 'This constractor already exists.',
+    'Error company_sn is exist' => 'This UEN already exists.',
+    'Error company_sn not exist' => 'The contractor does not exist.',
+    'Success Resetpwd' => 'Password has been reset successfully! You new Password is 123456, please login to system and modify it.',
+    'Confirm Logout_1' => 'Confirm to Log off:',
+    'Confirm Logout_2' => ' ？',
+    'Loading' => 'Loading ...',
+);
